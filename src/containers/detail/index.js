@@ -46,11 +46,11 @@ handleClick = () => {
               style={{ width: '100%', color: '#108ee9', textAlign: 'center' }}
               onClick={this.handleClick}
             >
-              click to focus
+              commit
             </div>
             <InputItem
             clear
-            placeholder="click the button below to focus"
+            placeholder="commit"
             ref={el => this.inputRef = el}
              ></InputItem>
         </div>
