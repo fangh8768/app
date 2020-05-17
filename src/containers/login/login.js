@@ -32,6 +32,7 @@ class Login extends React.Component {
   }
 
   handleLogin() {
+    this.props.history.push("/index");
     this.props.login(this.props.state)
   }
 
